@@ -2,6 +2,11 @@
 
 A full-stack dataset explorer application for discovering, filtering, and analyzing public datasets across demographics, healthcare, education, housing, and economics.
 
+## Links
+
+- **Live Application**: [https://dataset-explorer-drab.vercel.app/](https://dataset-explorer-drab.vercel.app/)
+- **Walkthrough Video**: [https://www.loom.com/share/477263866b314c37ba3e326f384f45c2](https://www.loom.com/share/477263866b314c37ba3e326f384f45c2)
+
 ## Tech Stack
 
 - **Frontend**: React 18, TypeScript, Tailwind CSS v4, Vite
@@ -57,7 +62,7 @@ StatsUSA/
 ### Prerequisites
 
 - Node.js (v18+)
-- MongoDB running locally on port 27017 (or via Docker)
+- MongoDB running locally on port 27017 (or via MongoDB Atlas)
 
 ### 1. Backend Setup
 
@@ -132,5 +137,5 @@ This validates records, standardizes fields, and exports:
 ## Assumptions
 
 - Categories are standardized to Demographics, Healthcare, Education, Housing, and Economics.
-- MongoDB connects to `mongodb://127.0.0.1:27017/statsusa` by default.
-- Datasets follow federal open data reporting standards with attributes and record counts.
+- MongoDB connects via `MONGODB_URI` environment variable (defaults to local MongoDB).
+- Datasets follow federal open data reporting standards with schema attributes and record counts.
