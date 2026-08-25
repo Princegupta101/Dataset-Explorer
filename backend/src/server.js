@@ -26,8 +26,14 @@ const startServer = async () => {
     process.on('SIGINT', shutdown);
   } catch (error) {
     console.error('Failed to start server:', error.message);
-    process.exit(1);
+    if (!process.env.VERCEL) {
+      process.exit(1);
+    }
   }
 };
 
-startServer();
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export default app;
