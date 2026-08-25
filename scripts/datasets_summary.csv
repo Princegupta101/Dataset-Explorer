@@ -1,0 +1,21 @@
+Dataset Name,Category,Geography,Year,Source,Records Count,Tags Count
+Language Spoken at Home and English Ability,Demographics,State,2023,US Census Bureau (ACS 5-Year),184500,4
+Chronic Disease Indicators and Hospitalization Prevalence,Healthcare,County,2024,Centers for Disease Control and Prevention (CDC),314200,5
+Public High School Graduation and Dropout Statistics,Education,State,2023,National Center for Education Statistics (NCES),94200,4
+Fair Market Rents and Housing Affordability Metrics,Housing,Metro,2024,U.S. Dept of Housing & Urban Development (HUD),24000,4
+County Employment and Wage Quarterly Census,Economics,County,2023,Bureau of Labor Statistics (BLS),420000,5
+Median Household Income and Poverty Thresholds,Demographics,County,2023,US Census Bureau (SAIPE),156000,4
+Healthcare Provider Shortage Areas and Facility Access,Healthcare,National,2024,Health Resources and Services Administration (HRSA),68000,5
+Postsecondary College Tuition and Student Debt Burden,Education,National,2023,U.S. Department of Education (College Scorecard),6500,4
+Residential Building Permits and New Construction Starts,Housing,Metro,2024,US Census Bureau & HUD,85000,4
+Consumer Price Index and Inflation Breakdown,Economics,National,2024,Bureau of Labor Statistics (BLS),12000,5
+"Age, Sex, and Race Population Projections (2020-2050)",Demographics,National,2022,US Census Bureau,250000,4
+Health Insurance Coverage and Uninsured Rates,Healthcare,State,2023,US Census Bureau (CPS ASEC),51000,5
+K-12 STEM Proficiency and Standardized Assessment Scores,Education,State,2024,National Assessment of Educational Progress (The Nation's Report Card),38000,5
+Homelessness Point-in-Time Census and Shelter Capacity,Housing,City,2023,U.S. Dept of Housing & Urban Development (HUD AHAR),18500,4
+State Gross Domestic Product and Industry Output,Economics,State,2024,Bureau of Economic Analysis (BEA),145000,5
+Urban-Rural Domestic Migration and Commuting Patterns,Demographics,County,2022,Internal Revenue Service (IRS) & Census,320000,4
+Opioid Overdose Mortality and Prescription Drug Monitoring,Healthcare,State,2023,CDC National Center for Health Statistics (NCHS),46000,4
+Early Childhood Education Enrollment and Head Start Access,Education,County,2024,U.S. Dept of Health & Human Services (ACF),62000,4
+Home Price Index and Mortgage Delinquency Rates,Housing,Metro,2024,Federal Housing Finance Agency (FHFA),78000,4
+Small Business Lending and Federal Reserve Credit Flow,Economics,County,2023,Federal Reserve Board & Small Business Administration (SBA),115000,4

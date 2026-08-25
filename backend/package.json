@@ -1,0 +1,42 @@
+{
+  "name": "statsusa-backend",
+  "version": "1.0.0",
+  "description": "StatsUSA Dataset Explorer - Express & MongoDB REST API (ES Modules)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/data/seeder.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand --detectOpenHandles"
+  },
+  "keywords": [
+    "statsusa",
+    "dataset-explorer",
+    "express",
+    "mongodb",
+    "rest-api",
+    "esm"
+  ],
+  "author": "StatsUSA Engineering",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^9.4.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 30000,
+    "transform": {}
+  }
+}
